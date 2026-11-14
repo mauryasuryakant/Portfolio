@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111711" />
+  <meta name="description" content="Suryakant Maurya — student, developer, and curious builder exploring software through thoughtful projects." />
+  <title>Suryakant Maurya — Developer & Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles-1.css" />
+  <link rel="stylesheet" href="styles-2.css" />
+  <link rel="stylesheet" href="styles-3.css" />
+  <link rel="stylesheet" href="styles-4.css" />
+</head>
+<body data-page="home" data-mode="dark">
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" data-go="home" aria-label="Suryakant Maurya home">
+        <span class="brand-mark">sm<span>.</span></span>
+        <span class="brand-name">Suryakant Maurya</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <button class="nav-link is-active" data-go="home">Home</button>
+        <button class="nav-link" data-go="about">About</button>
+        <button class="nav-link" data-go="work">Selected work</button>
+        <button class="nav-link" data-go="stack">Stack & focus</button>
+        <button class="nav-link" data-go="contact">Contact</button>
+      </nav>
+      <div class="top-actions">
+        <button class="icon-button mode-toggle" aria-label="Switch to light mode" title="Toggle light and dark mode"><span class="mode-icon">☼</span></button>
+        <a class="top-cta" href="mailto:mauryasuryakant99@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+        <button class="icon-button menu-toggle" aria-label="Open navigation" aria-expanded="false"><span class="menu-icon">☰</span></button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" hidden>
+      <button data-go="home"><span>01</span>Home <b>↗</b></button>
+      <button data-go="about"><span>02</span>About <b>↗</b></button>
+      <button data-go="work"><span>03</span>Selected work <b>↗</b></button>
+      <button data-go="stack"><span>04</span>Stack & focus <b>↗</b></button>
+      <button data-go="contact"><span>05</span>Contact <b>↗</b></button>
+    </div>
+
+    <main id="app" class="page-shell" tabindex="-1" aria-live="polite">
+      <section class="home-page page-enter">
+        <div class="home-topline"><span><i class="pulse-dot"></i> BUILDING, LEARNING & STAYING CURIOUS</span><span>STUDENT · DEVELOPER · MAKER</span></div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow"><i></i> HELLO, I'M SURYAKANT</div>
+            <h1>Curious mind.<br><em>Builder</em> at heart<span class="accent-dot">.</span></h1>
+            <p class="hero-lede">I like understanding how things work — then turning that curiosity into useful software.</p>
+            <p class="hero-support">Exploring C++, Go, Java and the craft of building thoughtful products, one project at a time.</p>
+            <div class="hero-buttons">
+              <button class="button button-primary" data-go="work">Explore my work <span>↗</span></button>
+              <button class="button button-quiet" data-go="about">A little about me <span>→</span></button>
+            </div>
+            <div class="hero-socials">
+              <a href="https://github.com/mauryasuryakant" target="_blank" rel="noreferrer">⌘ GitHub <span>↗</span></a>
+              <a href="mailto:mauryasuryakant99@gmail.com">✉ Email <span>↗</span></a>
+            </div>
+          </div>
+          <div class="hero-art-wrap" aria-label="An abstract illustration representing curiosity, code, and learning">
+            <div class="art-label"><span>FIG. 01</span><span>THE MAKER'S MINDSET</span></div>
+            <div class="hero-art">
+              <div class="art-grid"></div>
+              <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+              <div class="art-core"><span>sm</span><i>✳</i></div>
+              <div class="art-node node-one">{ }</div><div class="art-node node-two">⌘</div>
+              <div class="art-node node-three">&lt;/&gt;</div><div class="art-node node-four">◈</div>
+              <span class="art-word word-one">THINK</span><span class="art-word word-two">BUILD</span><span class="art-word word-three">LEARN</span>
+              <span class="art-coordinate">22° 17' N<br>73° 11' E</span>
+            </div>
+            <div class="art-foot"><span>ALWAYS IN PROGRESS</span><span>01 / 05</span></div>
+          </div>
+        </div>
+        <div class="home-bottom">
+          <div class="mini-stat"><span>01 — CURRENTLY</span><strong>Learning by building</strong><small>Small experiments, real projects.</small></div>
+          <div class="mini-stat"><span>02 — INTERESTS</span><strong>Systems & software</strong><small>From low-level logic to the web.</small></div>
+          <div class="mini-stat"><span>03 — APPROACH</span><strong>Understand the why</strong><small>Curiosity first. Code follows.</small></div>
+          <button class="scroll-cue" data-go="about">GET TO KNOW ME <span>↓</span></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-left"><i class="footer-dot"></i> Open to learning, building & good conversations</div>
+      <div class="footer-center">Designed with intention. Built with curiosity.</div>
+      <div class="footer-right">© <span id="year"></span> Suryakant Maurya</div>
+    </footer>
+
+    <div class="page-switcher" aria-label="Page navigation">
+      <button data-step="previous" aria-label="Previous page" disabled>←</button>
+      <span><b id="page-number">01</b> <i>/</i> 05</span>
+      <button data-step="next" aria-label="Next page">→</button>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
