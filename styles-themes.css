@@ -1,0 +1,9 @@
+/* Each section changes the whole canvas, not only the highlight colour. */
+body[data-page=about]{--bg:#111a26;--bg-soft:#182536;--panel:#1c2a3b;--panel-soft:#233449;--text:#edf3f9;--muted:#a5b4c5;--faint:#74879c;--line:#334357;--accent:#a9c5ef;--accent-ink:#17202d;--accent-rgb:169,197,239;--alt:#d9c9a6}
+body[data-page=work]{--bg:#191613;--bg-soft:#211c17;--panel:#282119;--panel-soft:#30271f;--text:#f2ede5;--muted:#b7a99a;--faint:#8d7c69;--line:#40352a;--accent:#e6b783;--accent-ink:#26190f;--accent-rgb:230,183,131;--alt:#b4c5a1}
+body[data-page=stack]{--bg:#171421;--bg-soft:#1e1a2c;--panel:#252035;--panel-soft:#2c2740;--text:#f0edf7;--muted:#b0a7c0;--faint:#847996;--line:#3b3450;--accent:#c2b1e9;--accent-ink:#21182d;--accent-rgb:194,177,233;--alt:#a6c5bd}
+body[data-page=contact]{--bg:#1a1312;--bg-soft:#241a18;--panel:#2c201d;--panel-soft:#362823;--text:#f5ece8;--muted:#b9a7a0;--faint:#8e7972;--line:#45332e;--accent:#e0ad99;--accent-ink:#2c1914;--accent-rgb:224,173,153;--alt:#c7d4a2}
+body[data-page=about][data-mode=light]{--bg:#eaf0f6;--bg-soft:#e0e8f1;--panel:#f6f8fb;--panel-soft:#eff3f7;--text:#1c2a3a;--muted:#536579;--faint:#788a9e;--line:#cbd7e4;--accent:#426c9f;--accent-ink:#fff;--accent-rgb:66,108,159;--alt:#9b824f}
+body[data-page=work][data-mode=light]{--bg:#f3ede5;--bg-soft:#ebe2d6;--panel:#fbf8f3;--panel-soft:#f5efe7;--text:#30251b;--muted:#756657;--faint:#9a8670;--line:#dfd0bf;--accent:#aa6c36;--accent-ink:#fff;--accent-rgb:170,108,54;--alt:#718c61}
+body[data-page=stack][data-mode=light]{--bg:#f0edf7;--bg-soft:#e6e1f0;--panel:#faf8fd;--panel-soft:#f3eff9;--text:#2b2438;--muted:#706780;--faint:#978ead;--line:#d8d0e5;--accent:#7056a2;--accent-ink:#fff;--accent-rgb:112,86,162;--alt:#608b80}
+body[data-page=contact][data-mode=light]{--bg:#f5eae6;--bg-soft:#eddfd9;--panel:#fff9f6;--panel-soft:#f8efeb;--text:#35231e;--muted:#806a62;--faint:#a38a81;--line:#e2cdc3;--accent:#a85d49;--accent-ink:#fff;--accent-rgb:168,93,73;--alt:#72814f}
